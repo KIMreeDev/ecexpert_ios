@@ -1,0 +1,94 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#if DEBUG
+
+#else
+#define NSLog(...) {}
+#endif
+
+
+#import <Availability.h>
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#define KEY_USERNAME @"com.private.username"
+#define KEY_PASSWORD @"com.private.password"
+#define KEY_USERTYPE @"com.private.usertype"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "MainViewController.h"
+    #import "JRTool.h"
+    #import "JDStatusBarNotification.h"
+    #import "JRNetwork.h"
+    #import "SVProgressHUD.h"
+    #import "ASIHTTPRequest.h"
+    #import "Reachability.h"
+    #import "MMProgressHUD.h"
+    #import "CJSONDeserializer.h"
+    #import "LocalStroge.h"
+    #import "UIImageView+WebCache.h"
+    #import "Header.h"
+    #import "ASIFormDataRequest.h"
+    #import "ASIDownloadCache.h"
+    #import "ErrorHelper.h"
+    #import "UIAlertView+Block.h"
+    #import "UIScrollView+DeliveryEvent.h"
+
+    #import <Fabric/Fabric.h>
+    #import <Crashlytics/Crashlytics.h>
+
+#endif
+
+#define IS_INCH4 (([[UIScreen mainScreen] bounds].size.height-568)?NO:YES)
+#define IOS7 [[[UIDevice currentDevice]systemVersion] floatValue] >= 7.0
+
+#define kScreen_Height   ([UIScreen mainScreen].bounds.size.height)
+#define kScreen_Width    ([UIScreen mainScreen].bounds.size.width)
+
+#define TESTVERSION 0  //测试版本
+#define JRUIDEBUG 1     //thlog
+
+#define COMMENT 0   //回复功能
+
+
+// -----------------------------------------   add by Fran    -----------------------------------------
+
+// user default
+#define KM_USER_DEFAULT ([NSUserDefaults standardUserDefaults])
+
+// appDelegate
+#define KM_APP_DELEGATE ([[UIApplication sharedApplication] delegate])
+
+#define KM_INFO_PLIST ([[NSBundle mainBundle] infoDictionary])
+
+#define KM_REFRESH_LOGIN_USER_INFO @"REFRESH_USER_INFO"
+
+// english : en
+// chinese : zh-Hans
+#define KM_OS_LANGUAGE ([[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"] firstObject])
+#define KM_OS_LANGUAGE_EN ([[KM_OS_LANGUAGE substringToIndex:2] caseInsensitiveCompare:@"en" ] == NSOrderedSame)
+#define KM_OS_LANGUAGE_ZH ([[KM_OS_LANGUAGE substringToIndex:2] caseInsensitiveCompare:@"zh" ] == NSOrderedSame)
+
+// device version
+#define KM_DEVICE_OS_VERSION ([[[UIDevice currentDevice] systemVersion] doubleValue])
+
+// screen bounds, width, height
+#define KM_SCREEN_BOUNDS ([[UIScreen mainScreen] bounds])
+#define KM_SCREEN_WIDTH (KM_SCREEN_BOUNDS.size.width)
+#define KM_SCREEN_HEIGHT (KM_SCREEN_BOUNDS.size.height)
+
+// color
+#define RGBA(R,G,B,A) ([UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A])
+#define RGB(R,G,B) (RGBA(R,G,B,1))
+
+#define KM_COLOR_WHITE ([UIColor whiteColor])
+#define KM_COLOR_NAVIGATION_BAR (RGB(208, 6, 51))
+
+

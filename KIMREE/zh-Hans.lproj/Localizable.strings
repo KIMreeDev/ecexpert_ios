@@ -1,0 +1,322 @@
+/*
+ Localizable.strings
+ ECIGARFAN
+ 
+ Created by renchunyu on 14-6-19.
+ Copyright (c) 2014年 renchunyu. All rights reserved.
+ */
+
+
+//启动画面
+
+"Tap to enter"="点击进入";
+"QRCodeReader"="二维码内容";
+"OK"="确定";
+"Update later"="稍后更新";
+"Update now"="立刻更新";
+
+
+
+//主菜单
+
+"Product" = "产品";
+"Entertainment" = "娱乐";
+"Postbar" = "贴吧";
+"ECIGARFAN" = "ECIGARFAN";
+"Circum" = "附近电子烟";
+"Account" = "用户";
+"News" = "资讯";
+"Me"="我";
+"Information"="资讯";
+"Nearby"="附近电子烟店";
+
+
+//登陆界面
+"NAME"="用户名";
+"PASSWORD"="密码";
+"Login" = "登陆";   //标题
+"LOGIN" = "登陆";
+"SIGN IN" = "注册";  //按钮
+"FORGOT?" = "忘记密码";
+"Remember the password" = "记住密码";
+"name" = "用户名";     //与注册界面公用
+"password" = "密码";   //与注册界面公用
+"confirm password"="确认密码";
+
+//注册界面
+
+"SignIn" = "注册";
+"SUBMIT" = "提交";
+"Use agreement" = "使用协议";
+"I have read,agree to the" = "我已阅读，同意";
+"Back" = "返回";
+"Please read and tick the appropriate box below" = "请阅读并勾选单选框";
+
+//找回密码
+
+"The temp password has been sended your email,please check your mailbox" = "临时密码已发到你的邮箱，请检查邮箱";
+"Forgot password" = "忘记密码";
+"SEND" = "发送";
+"EMAIL" = "邮箱";
+
+//用户设置界面
+"Member" = "会员";
+"LogIn"="登陆";
+"LogOut" = "注销";
+"Name:%@" = "用户名:%@";
+"Nickname:%@" = "昵称:%@";
+"Level:%@" = "会员等级:%@";
+"Sure" = "确定";
+"Cancel" = "取消";
+"Are sure logout?" = "确定注销?";
+"Logout" = "注销";
+"My order" = "我的订单";
+"Logistics" = "查看物流";
+"My score" = "我的积分";
+"Comment"="评论";
+"Wheel of Fortune" = "积分抽奖";
+"Your suggestion" = "用户反馈";
+"About ECIGARFAN" = "关于ecigarfan";
+"There is nothing now" = "开发中，敬请期待";
+"No content submit"="没有提交内容";
+"Shopping Setting"="购物设置";
+"Address management"="地址管理";
+"Feedback"="用户反馈";
+"Not logged in"="未登录";
+"Please login first"="请先登录账号";
+"Current version"="当前版本";
+
+//心率
+"Heart rate test"="心率测试";
+"Cover the camera with the index finger, click the button to start"="用食指盖住摄像头，点击按钮开始测试";
+"Your heart rate is%@,The normal range60-100"="你的心率是%@,正常范围是60-100";
+
+//--用户反馈
+"Please fill in your questions and suggestions" = "请填写你的问题反馈及建议";
+"Submit" = "提交";
+//--转盘游戏
+"Wheel of Fortune" = "抽奖";
+"Have a try" = "试试手气";
+"Your score" = "查看分数";
+"Exit" = "退出";
+"Your score is" = "你的积分是";
+"congratulation!" = "恭喜你!";
+"Accept the prize!" = "领奖!";
+"You win the Seventh prize!" = "你获得了七等奖";
+"You win the Sixth prize!" = "你获得了六等奖";
+"You win the Fifth prize!" = "你获得了五等奖";
+"You win the Fourth prize!" = "你获得了四等奖";
+"You win the Third prize!" = "你获得了三等奖";
+"You win the Second prize!" = "你获得了二等奖";
+"You win the First prize!" = "你获得了一等奖";
+
+//用户信息界面及修改
+
+"Head portrait" = "头像";
+"Nickname" = "昵称";
+"Signature" = "个性签名";
+"Gender" = "性别";
+"Region" = "地区";
+"Birthday" = "生日";
+"Email" = "邮箱";
+"Phone" = "电话";
+"Password" = "密码";
+"Account information" = "个人信息";
+"male" = "男";
+"female" = "女";
+"Save" = "保存";
+"OLD PASSWORD" = "旧密码";
+"NEW PASSWORD" = "新密码";
+"Confirm to clear the cache?"="确定清除缓存?";
+"Clear the cache"="清理缓存";
+
+"change your icon"="更改头像";
+"take photo from library"="从手机相册选择";
+"take photo from camera"="拍照";
+"cancel"="取消";
+
+
+//网络状态
+"There is a new version, do you want to update?"="检查到新版本,是否更新?";
+"Login timeout,please login again" = "登陆过期，请重新登陆";
+"submit..." = "提交中...";
+"Failed to connect link to server!" = "连接服务器失败";
+"Get user information..." = "获取用户信息....";
+"Loading..."="加载中...";
+"error"="错误";
+"Registering..."="注册中...";
+"Sending..."="发送中...";
+"login timeout,please login again"="登录过期，请重新登录";
+"Successful modification!"="保存修改成功!";
+"Successful submission!"="提交成功!";
+"Hint"="提示";
+"Getting information..."="获取信息...";
+"Access to information failure"="连接服务器失败";
+
+//密码验证框
+
+"NO user name" = "用户名不能为空";
+"NO password" = "密码不能为空";
+"NO comfirm password" = "确认密码不能为空";
+"Password lengh must be over 6 numbers including letters!" = "密码必须是大于6位的数字字母组合";
+"The two input password does not match!" = "两次输入密码不一致";
+"The message cannot be empty"="请正确填写邮箱地址";
+"Wrong format" = "邮箱格式错误";
+
+//地图界面
+"CIRCUM" = "附近电子烟";
+"Search" = "搜索";
+"Dealer information" = "经销商信息";
+"Dealer name:%@" = "经销商:%@";
+"Dealer address:%@" = "地址:%@";
+"Contact:%@" = "联系人:%@";
+"Phone:%@" = "电话：%@";
+"Dealer description:%@" = "详情:%@";
+"Call" = "拨打";
+"Unable to locate"="无法定位";
+"Your phone is not currently open location service, if you want to open the location service, please refer to the privacy Settings->Privacy->Location, open Location Services"="你的手机目前未开启定位服务，如欲开启定位服务，请至设定->隐私->定位服务，开启定位服务功能";
+"Directions to Here"="到这里去";
+"%@km"="%@公里";
+
+//产品界面
+
+"New products"= "新品";
+"Class" = "分类";
+"Promotion" = "促销";
+//------产品详情界面
+"Product information" = "产品信息";
+"Name:%@" = "名称:%@";
+"Class:%@" = "类别:%@";
+"Description:%@" = "产品描述:%@";
+"Member price:%@ \nUnit price:%@" = "会员价格:%@ \n产品单价:%@";
+"Member price:%@ \nUnit price:%@\nInventory:%@"="会员价格:%@ \n产品单价:%@\n库存:%@";
+"Total amount: $%.2f" = "总金额: $%.2f";
+"Total amount: $0.00" = "总金额: $0.00";
+
+
+//购物部分
+"Remarks"="备注";
+"Has been added"="已加入购物车";
+"Evaluated"="已评价";
+"Evaluation"="评价";
+"evaluation"="评价";
+"Evaluate"="发表评价";
+"Please fill in your questions"="请填入你的问题";
+"Questioning"="提问";
+"Evaluation:%@"="商品评价:%@";
+"Buy time:%@"="购买时间:%@";
+"Purchase consulting"="购买咨询";
+"Order amount"="订单金额";
+"Goods evaluation"="商品评价";
+"Evaluate"="商品评价";
+"amount:"="数量:";
+"price:"="价格:";
+"Cart"="购物车";
+"New Consignee"="新收货人";
+"Consignee"="收货人";
+"New"="新建";
+"first name"="姓";
+"last name"="名";
+"region"="地区";
+"phone"="电话";
+"post code"="邮编";
+"address"="地址";
+"Delete"="删除";
+"Buy now"="立刻购买";
+"Add to card"="加入购物车";
+"GOODS LIST"="商品清单";
+"amount:%@"="数量:%@";
+"price:%@*$%@"="价格:%@*$%@";
+"Please select consignee informaition"="请选择收货人信息";
+"Cash on delivery"="货到付款";
+"Paypal"="Paypal支付";
+"Don't use bonus Points"="不使用积分优惠";
+"Use bonus Points,reduce points"="使用积分优惠，扣除积分";
+"Use bonus Points"="使用积分优惠";
+"consignee information"="收货人信息";
+"All Bill"="全部订单";
+"Value cannot be more than inventory"="数值不能超过库存";
+
+"Order form"="支付订单";
+"payment option"="支付方式";
+"bonus points"="积分优惠";
+"view goods list"="查看商品清单";
+"amounts of goods"="商品金额";
+"bonus return"="积分返还";
+"freight"="运费";
+"Order num"="订单号";
+"order amount"="订单金额";
+"Order time"="订单时间";
+"Order status"="订单状态";
+"Order Detail"="订单详情";
+"goods amount"="商品总额";
+"payment"="支付订单";
+"Total Amount:%@%@"="总金额:%@%@";
+"Settlement"="结算";
+"Cancel Order"="取消订单";
+"The delivery time"="发货时间";
+"order status:%@ \norder number:%@"="订单状态:%@\n订单编号:%@";
+
+"The shopping cart is empty,go shopping now"="购物车是空的，去逛逛";
+"No goods is sleceted!"="没有选择商品!";
+
+"please choose region"="请选择地区";
+
+//贴吧
+"Login has expired, please login again" = "登录过期，请重新登录";
+"Topics that are repeated, please modify the theme" = "主题有重复，请修改主题";
+"Me" = "我";
+"TakingPictures" = "拍照";
+"FromTheAlbumToChoose" = "相册";
+"Posting" = "发帖";
+"Subject" = "主题";
+"Content" = "内容";
+"Post success" = "发帖成功";
+"Post failure" = "发帖失败";
+"I also speaking a word" = "我也说一句";
+"Reply %@:" = "回复 %@:";
+"See article %i reply" = "查看 %i 条回复";
+"Pack up reply all" = "收起所有回复";
+//刷新
+"No Internet connection" = "无网络连接";
+"Connection timeout, please try again later" = "连接超时，请稍后重试";
+"Last updated: just" = "最新更新：刚刚";
+"Release to refresh" = "释放刷新";
+"Pull down to refresh" = "下拉刷新";
+"Pull load more" = "加载更多";
+"Loading Status" = "加载状态";
+"Last updated: %@" = "最近更新：%@";
+"Last updated: no refresh" = "最近更新：没有刷新";
+"%d minutes ago" = "%d 分钟前";
+"%d hours ago" = "%d 小时前";
+"Finished Status" = "已全部加载";
+"just" = "刚刚";
+"Comment on success" = "评论成功";
+"Comment:" = "回复:";
+"Reply %i floor:" = "回复 %i 楼:";
+"More" = "更多";
+"Mail" = "邮件";
+"SMS" = "短信";
+"Submitting..." = "正在提交...";
+"Deleted successfully" = "删除成功";
+"Delete" = "删除";
+//查看帖子的照片
+"Load failed!" = "加载失败!";
+"Successfully saved to the photo album" = "成功保存到相册";
+"Ha ha!" = "哈哈!";
+"Failure" = "失败";
+"Success" = "成功";
+"more reply"="更多回复";
+
+//资讯界面
+"Delete the channel?"="删除频道?";
+"Add content"="添加内容";
+
+//举报
+"Report" = "举报";
+"Reporting: %@ \nReason: Individual companies/spam \n" = "举报: %@\ \n原因: 个人企业信息/垃圾信息 \n";
+
+//附近烟酒
+"cigarettes and wine"="附近烟酒";
+"List"="列表";
+"About"="关于";

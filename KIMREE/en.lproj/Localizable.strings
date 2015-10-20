@@ -1,0 +1,328 @@
+/* 
+  Localizable.strings
+  ECIGARFAN
+
+  Created by renchunyu on 14-6-19.
+  Copyright (c) 2014年 renchunyu. All rights reserved.
+*/
+
+
+//启动画面
+
+"Tap to enter"="Tap to enter";
+"QRCodeReader"="QRCodeReader";
+"OK"="OK";
+"Update later"="Update later";
+"Update now"="Update now";
+
+
+//mainMenu
+
+"Product" = "Product";
+"Entertainment" = "Entertainment";
+"Postbar" = "Postbar";
+"ECIGARFAN" = "ECIGARFAN";
+"Circum" = "Circum";
+"Account" = "Account";
+"News" = "News";
+"Me"="Me";
+"Information"="Information";
+"Nearby"="Nearby";
+
+
+//登陆
+"NAME"="NAME";
+"PASSWORD"="PASSWORD";
+"Login" = "Login";   //标题
+"LOGIN" = "LOGIN";
+"SIGN IN" = "SIGN IN";  //按钮
+"FORGOT?" = "FORGOT?";
+"Remember the password" = "Remember the password";
+"name" = "name";     //与注册界面公用
+"password" = "password";   //与注册界面公用
+"confirm password"="confirm password";
+
+//sign in view
+
+"SignIn" = "SignIn";
+"SUBMIT" = "SUBMIT";
+"Use agreement" = "Use agreement";
+"I have read,agree to the" = "I have read,agree to the";
+"Back" = "Back";
+"Please read and tick the appropriate box below" = "Please read and tick the appropriate box below";
+
+
+//找回密码
+
+"The temp password has been sended your email,please check your mailbox" = "The temp password has been sended your email,please check your mailbox";
+"Forgot password" = "Forgot password";
+"SEND" = "SEND";
+"EMAIL" = "EMAIL";
+
+//用户设置界面
+
+"Member" = "Member";
+"LogIn"="LogIn";
+"LogOut" = "LogOut";
+"Name:%@" = "Name:%@";
+"Nickname:%@" = "Nickname:%@";
+"Level:%@" = "Level:%@";
+"Sure" = "Sure";
+"Cancel" = "Cancel";
+"Are sure logout?" = "Are sure logout?";
+"Logout" = "Logout";
+"My order" = "My order";
+"Logistics" = "Logistics";
+"My score" = "My score";
+"Comment"="Comment";
+"Wheel of Fortune" = "Wheel of Fortune";
+"Your suggestion" = "Your suggestion";
+"About ECIGARFAN" = "About ECIGARFAN";
+"There is nothing now" = "There is nothing now";
+"NO content"="NO content";
+"Shopping Setting"="Shopping Setting";
+"Address management"="Address management";
+"Feedback"="Feedback";
+"Confirm to clear the cache?"="Confirm to clear the cache?";
+"Clear the cache"="Clear the cache";
+"Not logged in"="Not logged in";
+"Please login first"="Please login first";
+"Current version"="Current version";
+"Heart rate test"="Heart rate test";
+//心率
+"Cover the camera with the index finger, click the button to start"="Cover the camera with the index finger, click the button to start";
+"Your heart rate is%@,The normal range60-100"="Your heart rate is%@,The normal range60-100";
+
+
+
+//--用户反馈
+"Please fill in your questions and suggestions" = "Please fill in your questions and suggestions";
+"Submit" = "Submit";
+//--转盘游戏
+"Wheel of Fortune" = "Wheel of Fortune";
+"Have a try" = "Have a try";
+"Your score" = "Your score";
+"Exit" = "Exit";
+"Your score is" = "Your score is";
+"congratulation!" = "congratulation!";
+"Accept the prize!" = "Accept the prize!";
+"You win the Seventh prize!" = "You win the Seventh prize";
+"You win the Sixth prize!" = "You win the Sixth prize";
+"You win the Fifth prize!" = "You win the Fifth prize";
+"You win the Fourth prize!" = "You win the Fourth prize";
+"You win the Third prize!" = "You win the Third prize";
+"You win the Second prize!" = "You win the Second prize";
+"You win the First prize!" = "You win the First prize";
+
+//用户信息界面及修改
+
+"Head portrait" = "Head portrait";
+"Nickname" = "Nickname";
+"Signature" = "Signature";
+"Gender" = "Gender";
+"Region" = "Region";
+"Birthday" = "Birthday";
+"Email" = "Email";
+"Phone" = "Phone";
+"Password" = "Password";
+"Account information" = "Account information";
+"male" = "male";
+"female" = "female";
+"Save" = "Save";
+"OLD PASSWORD" = "OLD PASSWORD";
+"NEW PASSWORD" = "NEW PASSWORD";
+"change your icon"="选择头像";
+"take photo from library"="take photo from library";
+"take photo from camera"="take photo from camera";
+"cancel"="cancel";
+
+
+//网络状态
+"There is a new version, do you want to update?"="There is a new version, do you want to update?";
+"Login timeout,please login again" = "Login timeout,please login again";
+"submit..." = "submit...";
+"Failed to connect link to server!" = "Failed to connect link to server!";
+"Get user information..." = "Get user information...";
+"Loading..."="Loading...";
+"error"="error";
+"Registering..."="Registering...";
+"Sending..."="Sending...";
+"login timeout,please login again"="login timeout,please login again";
+"Successful modification!"="Successful modification!";
+"Successful submission!"="Successful submission!";
+"Getting information..."="Getting information...";
+"Access to information failure"="Access to information failure";
+"Hint"="Hint";
+
+//密码验证框
+
+"NO user name" = "NO user name";
+"NO password" = "NO password";
+"NO comfirm password" = "NO comfirm password";
+"Password lengh must be over 6 numbers including letters!" = "Password lengh must be over 6 numbers including letters!";
+"The two input password does not match!" = "The two input password does not match!";
+"The message cannot be empty"="The message cannot be empty";
+"Wrong format" = "Wrong format";
+
+//地图界面
+
+"CIRCUM" = "CIRCUM";
+"Search" = "Search";
+"Dealer information" = "Dealer information";
+"Dealer name:%@" = "Dealer name:%@";
+"Dealer address:%@" = "Dealer address:%@";
+"Contact:%@" = "Contact:%@";
+"Phone:%@" = "Phone:%@";
+"Dealer description:%@" = "Dealer description:%@";
+"Call" = "Call";
+"Unable to locate" = "Unable to locate";
+"Your phone is not currently open location service, if you want to open the location service, please refer to the privacy Settings->Privacy->Location, open Location Services"="Your phone is not currently open location service, if you want to open the location service, please refer to the privacy Settings->Privacy->Location, open Location Services";
+"Directions to Here"="Directions to Here";
+"%@km"="%@km";
+
+//产品界面
+
+"New products"= "New products";
+"Class" = "Class";
+"Promotion" = "Promotion";
+//------产品详情界面
+"Product information" = "Product information";
+"Name:%@" = "Name:%@";
+"Class:%@" = "Class:%@";
+"Description:%@" = "Description:%@";
+"Member price:%@ \nUnit price:%@" = "Member price:%@ \nUnit price:%@";
+"Member price:%@ \nUnit price:%@\nInventory:%@"="Member price:%@ \nUnit price:%@\nInventory:%@";
+"Total amount: $%.2f" = "Total amount: $%.2f";
+"Total amount: $0.00" = "Total amount: $0.00";
+
+
+//购物部分
+"Remarks"="Remarks";
+"Has been added"="Has been added";
+"Evaluated"="Evaluated";
+"Evaluation"="Evaluation";
+"evaluation"="evaluation";
+"Evaluate"="Evaluate";
+"Please fill in your questions"="Please fill in your questions";
+"Questioning"="Questioning";
+"Evaluation:%@"="Evaluation:%@";
+"Buy time:%@"="Buy time:%@";
+"Purchase consulting"="Purchase consulting";
+"Order amount"="Order amount";
+"Goods evaluation"="Goods evaluation";
+"Evaluate"="Evaluate";
+"amount:"="amount:";
+"price:"="price:";
+"Cart"="Cart";
+"New Consignee"="New Consignee";
+"Consignee"="Consignee";
+"New"="New";
+"first name"="first name";
+"last name"="last name";
+"region"="region";
+"phone"="phone";
+"post code"="post code";
+"address"="address";
+"Delete"="Delete";
+"Buy now"="Buy now";
+"Add to card"="Add to card";
+"GOODS LIST"="GOODS LIST";
+"amount:%@"="amount:%@";
+"price:%@*$%@"="price:%@*$%@";
+"Please select consignee informaition"="Please select consignee informaition";
+"Cash on delivery"="Cash on delivery";
+"Paypal"="Paypal";
+"Don't use bonus Points"="Don't use bonus Points";
+"Use bonus Points,reduce points"="Use bonus Points,reduce points";
+"Use bonus Points"="Use bonus Points";
+"consignee information"="consignee information";
+"All Bill"="All Bill";
+"Value cannot be more than inventory"="Value cannot be more than inventory";
+
+"Order form"="Order form";
+"payment option"="PAYMENT OPTION";
+"bonus points"="BONUS POINTS";
+"view goods list"="VIEW GOODS LIST";
+"amounts of goods"="AMOUNTS OF GOODS";
+"bonus return"="BONUS RETURN";
+"freight"="FREIGHT";
+
+"Order num"="Order num";
+"order amount"="ORDER AMOUNT";
+"Order time"="Order time";
+"Order status"="Order status";
+"Order Detail"="Order Detail";
+"goods amount"="GOODS AMOUNT";
+
+"payment"="payment";
+"Total Amount:%@%@"="Total Amount:%@%@";
+"Settlement"="Settlement";
+"Cancel Order"="Cancel Order";
+"The delivery time"="The delivery time";
+"order status:%@ \norder number:%@"="Order status:%@\nOrder number:%@";
+
+
+"The shopping cart is empty,go shopping now"="The shopping cart is empty,go shopping now";
+"No goods is sleceted!"="No goods is sleceted!";
+
+"please choose region"="please choose region";
+
+//贴吧
+"Login has expired, please login again" = "Login has expired, please login again";
+"Topics that are repeated, please modify the theme" = "Topics that are repeated, please modify the theme";
+"Me" = "Me";
+"TakingPictures" = "Taking pictures";
+"FromTheAlbumToChoose" = "From the album to choose";
+"Posting" = "Posting";
+"Subject" = "Subject";
+"Content" = "Content";
+"Post success" = "Post success";
+"Post failure" = "Post failure";
+"I also speaking a word" = "I also speaking a word";
+"Reply %@:" = "Reply %@:";
+"See article %i reply" = "See article %i reply";
+"Pack up reply all" = "Pack up reply all";
+//刷新
+"No Internet connection" = "No Internet connection";
+"Connection timeout, please try again later" = "Connection timeout, please try again later";
+"Last updated: just" = "Last updated: just";
+"Release to refresh" = "Release to refresh";
+"Pull down to refresh" = "Pull down to refresh";
+"Pull load more" = "Pull load more";
+"Loading Status" = "Loading Status";
+"Last updated: %@" = "Last updated: %@";
+"Last updated: no refresh" = "Last updated: no refresh";
+"%d minutes ago" = "%d minutes ago";
+"%d hours ago" = "%d hours ago";
+"Finished Status" = "Finished Status";
+"just" = "just";
+"Comment on success" = "Comment on success";
+"Comment:" = "Comment:";
+"Reply %i floor:" = "Reply %i floor:";
+"More" = "More";
+"Mail" = "Mail";
+"SMS" = "SMS";
+"Submitting..." = "Submitting...";
+"Deleted successfully" = "Deleted successfully";
+"Delete" = "Delete";
+//查看帖子的照片
+"Load failed!" = "Load failed!";
+"Successfully saved to the photo album" = "Successfully saved to the photo album";
+"Ha ha!" = "Ha ha!";
+"Failure" = "Failure";
+"Success" = "Success";
+"more reply"="more reply";
+
+//资讯界面
+"Delete the channel?"="Delete the channel?";
+"Add content"="Add content";
+//举报
+"Report" = "Report";
+"Reporting: %@ \nReason: Individual companies/spam \n" = "Reporting: %@ \nReason: Individual companies/spam \n";
+
+//附近烟酒
+
+"cigarettes and wine"="cigarettes and wine";
+"List"="List";
+"About"="About";
+
